@@ -1,10 +1,10 @@
-import package_functions
-import package_images.Im_PIL
-from package_classes import (MyClassFDigitDetector, MyClassCV,
-                             MyClassCVFileReader, MyClassCVFileWriter)
-from package_functions import module_1, module_2, module_3
 import logging
 
+import package_functions
+import package_images.Im_PIL
+from package_classes import (MyClassCV, MyClassCVFileReader,
+                             MyClassCVFileWriter, MyClassFDigitDetector)
+from package_functions import module_1, module_2, module_3
 
 logging.basicConfig(filename='main.log', level=logging.INFO)
 logger = logging.getLogger(__name__)

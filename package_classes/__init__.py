@@ -1,2 +1,2 @@
-from .class_functions import (MyClassFDigitDetector, MyClassCV,
-                              MyClassCVFileReader, MyClassCVFileWriter)
+from .class_functions import (MyClassCV, MyClassCVFileReader,
+                              MyClassCVFileWriter, MyClassFDigitDetector)
